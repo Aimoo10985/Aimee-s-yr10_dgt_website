@@ -22,7 +22,7 @@ nav ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: grey;
+  background-color: #fbc6bc;
   top: 0;
   width: 100%;
   text-align: center;
@@ -48,27 +48,28 @@ nav li:hover{
 }
 
 nav #active{
-  background-color: darkgreen;
+  background-color: #ffcb6b;
 }
 
 /* Styling for the main section*/
 /* This is the line between the main section and footer */
 main{
   border-bottom: 3px solid;
-  color: black;
+  color: #344e41;
 }
 
 /* H1 uses a google font. Check out https://www.w3schools.com/howto/howto_google_fonts.asp to change - also see line 9 in your html page*/
 h1 {
-  color: darkblue;
-  font-family: 'Caesar Dressing';
+  color: #fbb88f;
+  font-family: 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap';
   font-size: 60px;
   text-align: center;
   margin-bottom: 1rem;
+  text-shadow: 2px 4px 3px rgba(255, 188, 71, 0.5);
 }
 
 h2 {
-  color: black;
+  color: #fbb88f;
   font-size: 30px;
   text-align: center;
 }
@@ -89,10 +90,10 @@ p {
 
 /*Items for all the screenshots and pictures of your stuff*/
 .item{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
   width: 20%;
   min-width: 8rem;
-  margin: 0.5rem;
+  margin: 0.6rem;
 }
  .item-info{
    padding: 0.1rem;
