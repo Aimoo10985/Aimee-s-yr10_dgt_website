@@ -90,7 +90,7 @@ p {
 
 /*Items for all the screenshots and pictures of your stuff*/
 .item{
-  box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0px 0px 0 rgb(199, 210, 222,0.2);
   width: 20%;
   min-width: 8rem;
   margin: 0.6rem;
